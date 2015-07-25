@@ -685,7 +685,7 @@
 
   Mat
   (matrix-add [a x] (matrix-add! (.copy a) x))
-  (matrix-sub [a x] (matrix-add! (.copy a) x)))
+  (matrix-sub [a x] (matrix-sub! (.copy a) x)))
 
 (extend-protocol PMatrixAddMutable
   Vec
